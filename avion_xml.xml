@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE table_avion[
+    <!ELEMENT table_avion (avion)+ >
+        <!ELEMENT avion (nom_avion, type_avion, nb_siege)>
+        <!ELEMENT nom_avion (#PCDATA)>
+        <!ELEMENT type_avion (#PCDATA)>
+        <!ELEMENT nb_siege (#PCDATA)>
+        <!ATTLIST avion id_avion ID #IMPLIED>
+        ]>
+        
+        
+ <table_avion>
+     <avion id_avion="B767-800">
+         <nom_avion>royal air maroc</nom_avion>
+         <type_avion>Dreamline</type_avion>
+         <nb_siege>10</nb_siege>
+         </avion>
+     <avion id_avion="E190-520">
+         <nom_avion>royal air maroc</nom_avion>
+         <type_avion>Embraer</type_avion>
+         <nb_siege>5</nb_siege>
+     </avion>
+     <avion id_avion="ATR72-60">
+         <nom_avion>royal air maroc</nom_avion>
+         <type_avion>Airbus</type_avion>
+         <nb_siege>10</nb_siege>
+     </avion>
+     <avion id_avion="B787-300">
+         <nom_avion>royal air maroc</nom_avion>
+         <type_avion>Boeing</type_avion>
+         <nb_siege>10</nb_siege>
+     </avion>
+     <avion id_avion="A380-174">
+         <nom_avion>air arabia</nom_avion>
+         <type_avion>Airbus</type_avion>
+         <nb_siege>10</nb_siege>
+     </avion>
+     <avion id_avion="A320-300">
+         <nom_avion>air arabia</nom_avion>
+         <type_avion>Airbus</type_avion>
+         <nb_siege>10</nb_siege>
+     </avion>
+     <avion id_avion="A320-111">
+         <nom_avion>air arabia</nom_avion>
+         <type_avion>Airbus</type_avion>
+         <nb_siege>5</nb_siege>
+     </avion>
+     <avion id_avion="A320-200">
+         <nom_avion>air arabia</nom_avion>
+         <type_avion>Airbus</type_avion>
+         <nb_siege>5</nb_siege>
+     </avion>
+     </table_avion>   
+            
