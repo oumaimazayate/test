@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tvol[
+    <!ELEMENT tvol (vol+) >
+    <!ELEMENT vol ( depart , arrivee , place , prix )>
+        <!ELEMENT depart (aerop,date,heure)>
+        <!ELEMENT aerop (#PCDATA)>
+        <!ATTLIST aerop id_aerop CDATA #IMPLIED>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT heure (#PCDATA)>
+        <!ELEMENT arrivee (aerop,date,heure)>
+        <!ELEMENT place (#PCDATA)>
+        <!ELEMENT prix (#PCDATA)>
+        <!ATTLIST vol id_vol CDATA #IMPLIED>
+]>
+<tvol>
+
+</tvol>
