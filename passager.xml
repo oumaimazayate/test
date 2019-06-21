@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE t_passager [
+<!ELEMENT t_passager (passager*)>
+    <!ELEMENT passager (nom, prenom, CIN, num_passport, adresse+, email+) >
+        <!ELEMENT nom (#PCDATA) >
+        <!ELEMENT prenom (#PCDATA) >
+        <!ELEMENT CIN (#PCDATA)>
+        <!ELEMENT num_passport (#PCDATA)>
+        <!ELEMENT adresse (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ATTLIST passager id_passager CDATA #REQUIRED>  
+]>
+
+<t_passager>
+    
+</t_passager>
